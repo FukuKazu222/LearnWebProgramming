@@ -43,7 +43,7 @@ public class FormSampleServlet extends HttpServlet {
 	     String gender = request.getParameter("gender");
 
 
-	     esponse.setContentType("text/html; charset=UTF-8");
+	     response.setContentType("text/html; charset=UTF-8");
 	        PrintWriter out = response.getWriter();
 	        out.println("<html>");
 	        out.println("<head>");
